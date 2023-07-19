@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proje_movidle.UIController">
+   <children>
+      <Pane layoutY="1.0" onInputMethodTextChanged="#handleKeyPressed" prefHeight="620.0" prefWidth="1250.0" style="-fx-background-color: lightblue;">
+      <children>
+            <Button fx:id="btnGuess" layoutX="524.0" layoutY="18.0" mnemonicParsing="false" onAction="#view" prefHeight="27.0" prefWidth="73.0" text="Guess" textFill="#540c0c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="lbl" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="52.0" text="Movidle" textFill="#cd0c0c">
+               <font>
+                  <Font name="Broadway" size="12.0" />
+               </font></Label>
+            <HBox fx:id="hBox1" layoutX="62.0" layoutY="149.0" prefHeight="78.0" prefWidth="777.0">
+               <children>
+                  <Button fx:id="btn00" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn01" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn02" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn03" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn04" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn05" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox fx:id="hBox2" layoutX="62.0" layoutY="234.0" prefHeight="78.0" prefWidth="777.0">
+               <children>
+                  <Button fx:id="btn10" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn11" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn12" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn13" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn14" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn15" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox fx:id="hBox3" layoutX="62.0" layoutY="309.0" prefHeight="98.0" prefWidth="777.0">
+               <children>
+                  <Button fx:id="btn20" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn21" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn22" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn23" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn24" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn25" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox fx:id="hBox4" layoutX="62.0" layoutY="404.0" prefHeight="78.0" prefWidth="777.0">
+               <children>
+                  <Button fx:id="btn30" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn31" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn32" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn33" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn34" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn35" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox fx:id="hBox5" layoutX="62.0" layoutY="488.0" prefHeight="88.0" prefWidth="777.0">
+               <children>
+                  <Button fx:id="btn40" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn41" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn42" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn43" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn44" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn45" mnemonicParsing="false" prefHeight="100.0" prefWidth="134.0" text="Button" visible="false">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <TextField fx:id="textField" layoutX="139.0" layoutY="19.0" onKeyPressed="#handleKeyPressed" prefHeight="25.0" prefWidth="333.0" />
+            <Button fx:id="btnRetry" disable="true" layoutX="631.0" layoutY="18.0" mnemonicParsing="false" onAction="#retryGame" prefHeight="27.0" prefWidth="73.0" text="Retry" textFill="#c94a4a">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <ListView fx:id="listView" layoutX="139.0" layoutY="45.0" prefHeight="51.0" prefWidth="333.0" />
+            <ImageView fx:id="imageView" fitHeight="137.0" fitWidth="158.0" layoutX="756.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="label" layoutX="524.0" layoutY="77.0" prefHeight="38.0" prefWidth="139.0" text="Remaining  :  5" textFill="#10398d">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font></Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
